@@ -1,0 +1,58 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+</style>
+*{margin: 0px;box-sizing: border-box;font-size: 30px;text-align: justify;padding: 0px;}
+
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+Img{
+max-width: 100%;}
+
+.bannerSection{padding: 331px 0;background-color: #fff;background-image: url(./image.jpg);background-repeat: no-repeat;background-size: contain;background-attachment: fixed;/* background-blend-mode: overlay; */background-position: 815px 0px;}
+
+.bannerContent {max-width: 536px;margin: -82px 173px;text-align: justify;/* padding: 0px 0; */}
+
+.bannerContent h1{font-size: 48px;color: black;margin: 13px 0px;}
+.bannerContent p{font-size: 22px;max-width: 538px;/* text-align: justify; */color: #001e29;margin: 0px auto;}
+
+.blogSection{/* margin-right: auto; */padding: 50px 0;background-color: #f0f1f275;/* margin-left: auto; */}
+
+.container{max-width: 1200px;margin: 0 auto;display: flex;flex-wrap: wrap;}
+
+.column{flex-basis: 31.33%;padding: 10px;}
+
+.card{background-color: rgb(251 251 251 / 82%);padding: 50px 30px;border-radius: 20px;box-shadow: 5px 5px 8px 4px #543b54;transition-duration: 0.4s;}
+
+.card h2{
+color: rgb(12, 12, 12);
+font-size: 31px;
+}
+.card p{color: #030214;font-size: 18px;}
+.card a{background: #33313c;padding: 10px 10px;display: inline-block;color: #fff;text-decoration: none;border-radius: 12px;font-weight: 400;transition-duration: 0.4s;}
+
+.card a:hover{
+    background-color: #82b9d8;
+    color: black;
+    }
+    
+    .card :hover{
+        background-color:burlywood;
+        }
+
+        .card :hover h2{
+            background-color: #d62d2d;
+        }
+
+
+        .card :hover p{
+            background-color: #2dd6b4;
+        }
+        .card :hover a{
+            background-color: #d62d2d;
+            color: #001e29;
+
+        }
